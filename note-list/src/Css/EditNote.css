@@ -1,0 +1,17 @@
+.edit_content{
+    background-color: rgb(253, 194, 121);
+    margin: 5rem;
+    border-radius: 10px;
+    padding-bottom: 0.1rem;
+}
+.layout_edit{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+textarea{
+    width: 97%;
+    height: 60vh;
+    resize: none;
+    border: 3px solid gray;
+    font-size: 15px;
+}

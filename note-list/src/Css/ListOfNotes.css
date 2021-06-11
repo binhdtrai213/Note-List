@@ -1,0 +1,32 @@
+.all {
+    display: grid;
+    grid-template-columns: 20% 70%;
+    /* justify-content: space-between; */
+}
+.list_of_notes{ 
+    height: 100vh;
+    background: rgba(255, 255, 255, 0.589);  
+}
+.content_list_of_notes{
+    height: 4rem;
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: 75% 20%;
+    justify-content:space-between;
+}
+.day_of_note{
+    margin: 0;
+    text-align: end;
+}
+.title_of_note{
+    text-align: left;
+    margin: 0;
+    align-items: flex-start;
+}
+.button_list{
+    background-color: rgb(253, 194, 121);
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
